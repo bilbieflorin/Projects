@@ -1,0 +1,201 @@
+﻿.leftAside {
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 15%;
+}
+
+.box {
+    position:relative;
+    border-radius: 3px;
+    width: 100%;
+    padding:9px;
+    margin-top:5px;
+    margin-bottom:15px;
+    background-color: white!important;
+}
+
+.grey {
+    color:#C0C0C0 ;
+}
+
+.main {
+    position:relative;
+    float: left;
+    width: 70%;
+}
+
+.center {
+   margin-left:auto !important;
+   margin-right:auto !important;
+}
+
+.center form {
+    display:inline-block;
+}
+
+.form {
+    position: relative;
+    top: 8px;
+    left: 22px;
+    width: 95%;
+}
+
+.down {
+    position:relative;
+    top:80px;
+}
+
+.footer {
+    height:40px;
+    clear:both;
+}
+
+body,html {
+    background-color:#EBEEF4 ;
+    height:100%;
+}
+
+.space{
+   width:200px; 
+}
+
+.left {
+    left:-30px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.ta {
+    resize:none;
+}
+
+.div {
+    clear:both;
+    width:400px;
+}
+
+.div-left2 {
+    margin-left:130px !important;
+}
+
+.no-dec {
+    text-decoration:none !important;
+    color:navy;
+}
+
+.no-dec:hover {
+    color:navy;
+}
+
+#ErrorLabel {
+    width:100%; 
+    text-align:left; 
+    margin-left:154px;
+    color: red
+}
+
+.div-left {
+    margin-left:100px !important;
+}
+
+.full {
+    width: 100%;
+}
+
+.one-line {
+    white-space: nowrap;
+}
+
+.margin-5 {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top:5px;
+}
+
+.little {
+    width:20px;
+    height: 20px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.w95{
+    width:95%;
+    margin-left:7px;
+    
+}
+
+.box-content {
+   padding-bottom: 10px;
+}
+
+.w90 {
+    width:90%;
+}
+
+#text {
+    padding-left:5px;
+}
+
+#button {
+ padding:10px;
+}
+
+.fb {
+    background-color:#E9EAED;
+}
+
+.navy {
+    color:navy;
+}
+
+.a {
+    color: #000000
+}
+
+.thumb {
+    overflow:hidden;
+    width:206px;
+    height:206px;
+    position:relative;
+    float:left;
+    margin-left:20px;
+    padding-bottom:5px;
+}
+
+.img {
+    height:206px !important;
+    width:auto;
+    padding-bottom:3px;
+}
+
+.no-margin {
+    margin:0px !important;
+}
+
+.up {
+    position:relative;
+    top: -27px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.txt-left {
+    text-align:left !important;
+}
+
+.nup-down {
+    margin-bottom:0px;
+    margin-top:5px;
+}

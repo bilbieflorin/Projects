@@ -1,0 +1,35 @@
+﻿Build started 08.06.2013 17:17:01.
+     1>Project "C:\Users\FLORIN\Google Drive\Facultate\poo\poo_t3\poo_t3\poo_t3.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\FLORIN\Google Drive\Facultate\poo\poo_t3\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\poo_t3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Agent.cpp Brave_agent.cpp Coward_agent.cpp Game_engine.cpp main.cpp World.cpp
+         World.cpp
+     1>c:\users\florin\google drive\facultate\poo\poo_t3\poo_t3\world.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>c:\users\florin\google drive\facultate\poo\poo_t3\poo_t3\main.cpp(10): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Game_engine.cpp
+         Coward_agent.cpp
+         Brave_agent.cpp
+         Agent.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\FLORIN\Google Drive\Facultate\poo\poo_t3\Debug\poo_t3.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\poo_t3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\FLORIN\Google Drive\Facultate\poo\poo_t3\Debug\poo_t3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\FLORIN\Google Drive\Facultate\poo\poo_t3\Debug\poo_t3.lib" /MACHINE:X86 Debug\Agent.obj
+         Debug\Brave_agent.obj
+         Debug\Coward_agent.obj
+         Debug\Game_engine.obj
+         Debug\main.obj
+         Debug\World.obj
+         poo_t3.vcxproj -> C:\Users\FLORIN\Google Drive\Facultate\poo\poo_t3\Debug\poo_t3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\FLORIN\Google Drive\Facultate\poo\poo_t3\Debug\poo_t3.exe;#1" /manifest Debug\poo_t3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\poo_t3.unsuccessfulbuild".
+         Touching "Debug\poo_t3.lastbuildstate".
+     1>Done Building Project "C:\Users\FLORIN\Google Drive\Facultate\poo\poo_t3\poo_t3\poo_t3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.29

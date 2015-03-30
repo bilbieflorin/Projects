@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" CodeFile="MasterPage.master.cs" Inherits="MyMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>PhotoSharing</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel ="icon" href="favicon.ico" />
+    <link href="css/custom.css" rel="stylesheet"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+                    <div class="navbar-header">
+                        <asp:HyperLink CssClass="navbar-brand" ID="HomeHyperlink" runat="server" NavigateUrl="~/homepage.aspx">PhotoSharing</asp:HyperLink>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <asp:HyperLink ID="PhotosHyperLink" runat="server" NavigateUrl="~/photos.aspx" Visible="false">Photos</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="AlbumsHyperLink" NavigateUrl="albums.aspx" runat="server" Visible="false">Albums</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="UploadHyperLink" NavigateUrl="upload.aspx" runat="server" Visible="false">Upload</asp:HyperLink></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <asp:HyperLink ID="SignInHyperLink" NavigateUrl="~/signIn.aspx" runat="server">Sign In</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="SignUpHyperLink" NavigateUrl="~/signUp.aspx" runat="server">Sign Up</asp:HyperLink></li>
+                            <li>
+                                <asp:Label runat="server" Visible="false" ID="UserLabel" class="navbar-text">Signed as <asp:HyperLink NavigateUrl="~/user.aspx" data-toggle="tooltip" data-placement="right" data-original-title="Edit profile" ID="UserHyperLink" runat="server"></asp:HyperLink></asp:Label></li>
+                            <li>
+                                <asp:Label runat="server" Visible="false" ID="BDayLabel" class="navbar-text" Text="Happy birthday!!!"></asp:Label></li>
+                            <li>
+                                <asp:HyperLink ID="LogOutHyperLink" NavigateUrl="~/logout.aspx"  Visible="false" runat="server">Logout</asp:HyperLink></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <asp:ContentPlaceHolder ID="Body" runat="server">
+        </asp:ContentPlaceHolder>
+</body>
+</html>
